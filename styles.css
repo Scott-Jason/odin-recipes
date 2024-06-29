@@ -1,3 +1,60 @@
+@font-face {
+    font-family: 'glacial_indifferenceregular';
+    src: url('font/glacialindifference-regular-webfont.woff2') format('woff2'),
+         url('font/glacialindifference-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'chunkfiveregular';
+    src: url('font/chunkfive-regular-webfont.woff2') format('woff2'),
+         url('font/chunkfive-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+h1, h2, h3, h4 {
+    font-family: 'chunkfiveregular';
+    letter-spacing: 0.1rem;
+}
+
+p{
+    font-family: 'glacial_indifferenceregular';
+}
+
+div{
+    font-family: "Playwrite IT Moderna";
+}
+.format {
+    box-sizing:border-box;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 3px dotted orangered;
+    margin: 20px auto
+    
+}
+
+.in{
+    display:inline-block;
+    padding:1em;
+    border: 5px solid coral;
+}
+
+.ex{
+    border: 5px double green;
+}
+
+.banana{
+    border: 5px double yellow;
+}
+
+
 p {
     font-size: 22px;
     color: orangered;
@@ -16,7 +73,7 @@ h1 {
 
 }
 h2 {
-    text-align: left;
+    text-align: center;
     color: orangered;
     font-size: 30px;
 }
@@ -27,6 +84,9 @@ h3 {
 }
 
 li {
+    display: inline-block;
+    margin-top: -5px;
+    padding: 8px;
     color: brown;
     font-size: 25px;
     font-weight: bold;
